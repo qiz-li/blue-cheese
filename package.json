@@ -1,0 +1,21 @@
+{
+    "name": "blue-cheese",
+    "displayName": "Blue Cheese",
+    "description": "Clean and crisp dark theme, with inspirations from the colors of yellow and blue.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blue Cheese",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blue-cheese-color-theme.json"
+            }
+        ]
+    }
+}
