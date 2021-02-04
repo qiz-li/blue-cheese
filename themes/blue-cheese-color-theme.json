@@ -1789,7 +1789,8 @@
     "badge.foreground": "#282c34",
     "button.background": "#404754",
     "debugToolBar.background": "#21252b",
-    "diffEditor.insertedTextBackground": "#00809b33",
+    "diffEditor.removedTextBackground": "#EF535033",
+    "diffEditor.insertedTextBackground": "#D0FFA833",
     "dropdown.background": "#21252b",
     "dropdown.border": "#21252b",
     "editor.background": "#282c34",
@@ -1810,7 +1811,7 @@
     "editorBracketMatch.border": "#515a6b",
     "editorCursor.background": "#ffffffc9",
     "editorCursor.foreground": "#528bff",
-    "editorError.foreground": "#c24038",
+    "editorError.foreground": "#EF5350",
     "editorGroup.emptyBackground": "#181a1f",
     "editorGroup.border": "#181a1f",
     "editorGroupHeader.tabsBackground": "#21252b",
@@ -1871,7 +1872,7 @@
     "terminal.ansiBrightMagenta": "#de73ff",
     "terminal.ansiBrightRed": "#ff616e",
     "terminal.ansiBrightWhite": "#d7dae0",
-    "terminal.ansiBrightYellow": "#f0a45d",
+    "terminal.ansiBrightYellow": "#FFCF4D",
     "terminal.ansiCyan": "#6ABAFF",
     "terminal.ansiGreen": "#D0FFA8",
     "terminal.ansiMagenta": "#F8BEFF",
@@ -1886,6 +1887,10 @@
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#9da5b4",
     "titleBar.inactiveBackground": "#21252b",
-    "titleBar.inactiveForeground": "#6b717d"
+    "titleBar.inactiveForeground": "#6b717d",
+    "settings.modifiedItemIndicator": "#FFCF4D",
+    "editorGutter.modifiedBackground": "#FFCF4D",
+    "editorGutter.addedBackground": "#D0FFA8",
+    "editorGutter.deletedBackground": "#EF5350"
   }
 }
