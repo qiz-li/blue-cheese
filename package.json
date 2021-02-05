@@ -1,42 +1,45 @@
 {
-    "name": "blue-cheese",
-    "displayName": "Blue Cheese",
-    "description": "Clean and crisp dark theme, with inspirations from the colors of yellow and blue 🧀",
-    "version": "2021.2.1",
-    "publisher": "N-l1",
-    "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/N-l1/blue-cheese"
-    },
-    "keywords": [
-      "Theme",
-      "Dark Theme",
-      "Blue Cheese",
-      "Simple Theme",
-      "Clean Theme",
-      "Minimal Theme",
-      "Crisp Theme",
-      "Accessible Theme"
-    ],
-    "galleryBanner": {
-      "color": "#282c34",
-      "theme": "dark"
-    },
-    "engines": {
-      "vscode": "^1.50.0"
-    },
-    "categories": [
-      "Themes"
-    ],
-    "icon": "./images/icon.png",
-    "contributes": {
-      "themes": [
-        {
-          "label": "Blue Cheese",
-          "uiTheme": "vs-dark",
-          "path": "./themes/blue-cheese-color-theme.json"
-        }
-      ]
-    }
+  "name": "blue-cheese",
+  "displayName": "Blue Cheese",
+  "description": "Clean and crisp dark theme, with inspirations from the colors of yellow and blue 🧀",
+  "version": "2021.2.1",
+  "publisher": "N-l1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/N-l1/blue-cheese"
+  },
+  "bugs": {
+    "url": "https://github.com/N-l1/blue-cheese/issues"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Blue Cheese",
+    "Simple Theme",
+    "Clean Theme",
+    "Minimal Theme",
+    "Crisp Theme",
+    "Accessible Theme"
+  ],
+  "galleryBanner": {
+    "color": "#282c34",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blue Cheese",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-cheese-color-theme.json"
+      }
+    ]
   }
+}

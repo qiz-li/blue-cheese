@@ -1,3 +1,3 @@
-## [Unreleased]
+## 2021.2.1
 
-- Unreleased yet
+- Initial release 🎉!
