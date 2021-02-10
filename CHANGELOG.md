@@ -1,3 +1,10 @@
+# Changelog
+
+## 2021.2.3
+
+- Banner color updated
+- Description updated
+
 ## 2021.2.2
 
 - Doc typo update

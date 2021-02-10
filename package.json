@@ -1,8 +1,8 @@
 {
   "name": "blue-cheese",
   "displayName": "Blue Cheese",
-  "description": "🧀 Clean and elegant dark theme, inspired from yellow and blue 💙",
-  "version": "2021.2.2",
+  "description": "Clean and elegant dark theme, inspired from yellow and blue 🧀",
+  "version": "2021.2.3",
   "publisher": "N-l1",
   "license": "MIT",
   "repository": {
@@ -23,8 +23,7 @@
     "Accessible Theme"
   ],
   "galleryBanner": {
-    "color": "#282c34",
-    "theme": "dark"
+    "color": "#fff5be"
   },
   "engines": {
     "vscode": "^1.50.0"
