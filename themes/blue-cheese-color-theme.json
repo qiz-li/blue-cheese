@@ -606,21 +606,21 @@
       "name": "Classes",
       "scope": "entity.name.type.namespace",
       "settings": {
-        "foreground": "#BABABA"
+        "foreground": "#6ABAFF"
       }
     },
     {
       "name": "Classes",
       "scope": "support.class, entity.name.type.class",
       "settings": {
-        "foreground": "#BABABA"
+        "foreground": "#6ABAFF"
       }
     },
     {
       "name": "Class name",
       "scope": "entity.name.class.identifier.namespace.type",
       "settings": {
-        "foreground": "#BABABA"
+        "foreground": "#6ABAFF"
       }
     },
     {
@@ -631,7 +631,7 @@
         "variable.other.class.ts"
       ],
       "settings": {
-        "foreground": "#BABABA"
+        "foreground": "#6ABAFF"
       }
     },
     {
@@ -701,7 +701,7 @@
       "name": "Support",
       "scope": "support.function",
       "settings": {
-        "foreground": "#6ABAFF"
+        "foreground": "#A8D7FF"
       }
     },
     {
@@ -1766,13 +1766,6 @@
       }
     },
     {
-      "name": "Python Keyword Control",
-      "scope": "keyword.control.import.python,keyword.control.flow.python",
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "markup.italic.markdown",
       "scope": "markup.italic.markdown",
       "settings": {
@@ -1849,12 +1842,10 @@
     "sideBar.background": "#21252b",
     "sideBarSectionHeader.background": "#282c34",
     "statusBar.background": "#FFCF4D",
-    "statusBar.debuggingBackground": "#cc6633",
-    "statusBar.debuggingBorder": "#66017a",
-    "statusBar.debuggingForeground": "#ffffff",
+    "statusBar.debuggingBackground": "#FDEDA2",
     "statusBar.foreground": "#282c34",
     "statusBar.noFolderBackground": "#FFCF4D",
-    "statusBarItem.hoverBackground": "#2c313a",
+    "statusBarItem.hoverBackground": "#FDEDA2",
     "statusBarItem.remoteBackground": "#4d78cc",
     "statusBarItem.remoteForeground": "#f8fafd",
     "tab.activeBackground": "#282c34",
@@ -1866,19 +1857,19 @@
     "terminal.ansiBlack": "#3f4451",
     "terminal.ansiBlue": "#4aa5f0",
     "terminal.ansiBrightBlack": "#4f5666",
-    "terminal.ansiBrightBlue": "#4dc4ff",
+    "terminal.ansiBrightBlue": "#6ABAFF",
     "terminal.ansiBrightCyan": "#4cd1e0",
     "terminal.ansiBrightGreen": "#a5e075",
     "terminal.ansiBrightMagenta": "#de73ff",
     "terminal.ansiBrightRed": "#ff616e",
     "terminal.ansiBrightWhite": "#d7dae0",
-    "terminal.ansiBrightYellow": "#FFCF4D",
-    "terminal.ansiCyan": "#6ABAFF",
+    "terminal.ansiBrightYellow": "#FDEDA2",
+    "terminal.ansiCyan": "#85ffff",
     "terminal.ansiGreen": "#D0FFA8",
     "terminal.ansiMagenta": "#F8BEFF",
     "terminal.ansiRed": "#EF5350",
     "terminal.ansiWhite": "#E0E0E0",
-    "terminal.ansiYellow": "#d18f52",
+    "terminal.ansiYellow": "#FFCF4D",
     "terminal.background": "#282c34",
     "terminal.border": "#E0E0E0",
     "terminal.foreground": "#E0E0E0",
