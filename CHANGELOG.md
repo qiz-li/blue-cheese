@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021.2.4
+
+- Variables = milky white
+
 ## 2021.2.3
 
 - Banner color updated
