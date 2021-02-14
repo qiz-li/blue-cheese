@@ -38,6 +38,11 @@
         "label": "Blue Cheese",
         "uiTheme": "vs-dark",
         "path": "./themes/blue-cheese-color-theme.json"
+      },
+      {
+        "label": "Blue Cheese Italics",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blue-cheese-italics-color-theme.json"
       }
     ]
   }
