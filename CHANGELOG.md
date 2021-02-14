@@ -1,5 +1,10 @@
 # Changelog
 
+## 2021.2.5
+
+- Disable semantic highlighting
+- Tweaks for JS and Python
+
 ## 2021.2.4
 
 - Variables = milky white

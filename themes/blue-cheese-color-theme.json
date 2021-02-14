@@ -1,18 +1,7 @@
 {
   "name": "Blue Cheese",
   "type": "dark",
-  "semanticHighlighting": true,
-  "semanticTokenColors": {
-    "enumMember": {
-      "foreground": "#6ABAFF"
-    },
-    "variable.constant": {
-      "foreground": "#D0FFA8"
-    },
-    "variable.defaultLibrary": {
-      "foreground": "#E0E0E0"
-    }
-  },
+  "semanticHighlighting": false,
   "tokenColors": [
     {
       "name": "unison punctuation",
@@ -43,6 +32,20 @@
       }
     },
     {
+      "name": "Python attributes",
+      "scope": "meta.attribute.python",
+      "settings": {
+        "foreground": "#F8BEFF"
+      }
+    },  
+    {
+      "name": "exceptions",
+      "scope": "support.type.exception",
+      "settings": {
+        "foreground": "#F8BEFF"
+      }
+    },
+    {
       "name": "punctuation.separator.parameters.python",
       "scope": "punctuation.separator.period.python,punctuation.separator.element.python,punctuation.parenthesis.begin.python,punctuation.parenthesis.end.python,string.quoted.docstring.multi.python",
       "settings": {
@@ -50,10 +53,11 @@
       }
     },
     {
-      "name": "variable.parameter.function.language.special.self.python",
-      "scope": "variable.parameter.function.language.special.self.python",
+      "name": "Python self",
+      "scope": "variable.parameter.function.language.special.self.python, variable.language.special.self.python",
       "settings": {
-        "foreground": "#BABABA"
+        "foreground": "#BABABA",
+        "fontStyle": "italic"
       }
     },
     {
@@ -186,21 +190,28 @@
       "name": "math js/ts",
       "scope": "support.constant.math",
       "settings": {
-        "foreground": "#BABABA"
+        "foreground": "#F8BEFF"
       }
     },
     {
       "name": "math property js/ts",
       "scope": "support.constant.property.math",
       "settings": {
-        "foreground": "#D0FFA8"
+        "foreground": "#F8BEFF"
       }
     },
     {
       "name": "js/ts variable.other.constant",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#BABABA"
+        "foreground": "#D0FFA8"
+      }
+    },
+    {
+      "name": "js/ts other object",
+      "scope": "variable.other.object.js",
+      "settings": {
+        "foreground": "#F8BEFF"
       }
     },
     {
@@ -545,7 +556,7 @@
       "name": "Variables",
       "scope": "variable",
       "settings": {
-        "foreground": "#F8BEFF"
+        "foreground": "#E0E0E0"
       }
     },
     {
@@ -952,14 +963,14 @@
       "name": "Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#6ABAFF"
+        "foreground": "#F8BEFF"
       }
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#6ABAFF"
+        "foreground": "#F8BEFF"
       }
     },
     {
@@ -1351,7 +1362,7 @@
       "name": "js func parameter",
       "scope": ["variable.parameter.function.js"],
       "settings": {
-        "foreground": "#F8BEFF"
+        "foreground": "#D0FFA8"
       }
     },
     {
@@ -1762,6 +1773,7 @@
       "name": "js/ts italic",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
+        "foreground": "#D0FFA8",
         "fontStyle": "italic"
       }
     },
