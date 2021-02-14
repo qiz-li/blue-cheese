@@ -388,7 +388,8 @@
       "name": "js console function",
       "scope": "entity.name.function,support.function.console",
       "settings": {
-        "foreground": "#A8D7FF"
+        "foreground": "#A8D7FF",
+        "fontStyle": "italic"
       }
     },
     {
@@ -678,7 +679,8 @@
       "name": "Methods",
       "scope": "keyword.other.special-method",
       "settings": {
-        "foreground": "#A8D7FF"
+        "foreground": "#A8D7FF",
+        "fontStyle": "italic"
       }
     },
     {
@@ -798,14 +800,14 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#D0FFA8",
-        "fontStyle": "italic";
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#A8D7FF"
       }
     },
@@ -813,7 +815,7 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#FFCF4D"
       }
     },
@@ -1210,7 +1212,8 @@
       "name": "parameter function js/ts",
       "scope": "function.parameter",
       "settings": {
-        "foreground": "#777777"
+        "foreground": "#777777",
+        "fontStyle": "italic"
       }
     },
     {
