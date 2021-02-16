@@ -1,5 +1,9 @@
 # Changelog
 
+## 2021.2.6
+
+- New italics variant thanks to [**@rcrooks**](https://github.com/rcrooks)
+
 ## 2021.2.5
 
 - Disable semantic highlighting
@@ -17,7 +21,7 @@
 ## 2021.2.2
 
 - Doc typo update
-- Terminal color tweaks 
+- Terminal color tweaks
 - Color fixes for Status Bar
 - Class names = dark blue!
 - Function calls = light blue!
